@@ -1,0 +1,226 @@
+Script started on 2026-03-14 03:22:28+00:00 [TERM="xterm" TTY="/dev/pts/30" COLUMNS="80" LINES="24"]
+make[1]: Entering directory '/data/tools/pave/innexis_home/vsi_2025.2/examples/vsiTutorials/lineFollowingRobot/lineFollowingRobot'
+python3 .//src/controller/controller.py --domain="AF_UNIX" --server-url="localhost"
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession1' to 'server@localhost' ...
++=+    Successfully connected 'client :remoteSession1' to 'server@localhost'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:timeServerConduit1
+           localClientConduitHandle=0x641015044558
+           remoteServerProxyConduitHandle=0x113a6e00
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:resetServerConduit1
+           localClientConduitHandle=0x64101517d2d8
+           remoteServerProxyConduitHandle=0x113a3010
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:txConfigPort1
+           localClientConduitHandle=0x64101511baf0
+           remoteServerProxyConduitHandle=0x113b5780
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:rxConfigPort1
+           localClientConduitHandle=0x641015176200
+           remoteServerProxyConduitHandle=0x113b1b80
++=+ INFO: ... successfully connected to TLM FabricServer !
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:txCanFrameConduit1
+           localClientConduitHandle=0x6410151820d0
+           remoteServerProxyConduitHandle=0x113ab620
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:rxCanFrameConduit1
+           localClientConduitHandle=0x6410151822d0
+           remoteServerProxyConduitHandle=0x113aa4b0
+
++=controller+=
+  VSI time: 20100 ns
+  Inputs:
+	lateral_error = 0.0
+	heading_error = 0.0
+  Outputs:
+	vel_cmd = 0.0
+
+
+
+
++=controller+=
+  VSI time: 10020100 ns
+  Inputs:
+	lateral_error = 0.09884272519826501
+	heading_error = -0.044696893469348756
+  Outputs:
+	vel_cmd = 0.0
+
+
+
+
++=controller+=
+  VSI time: 20020100 ns
+  Inputs:
+	lateral_error = 0.09588583020243333
+	heading_error = -0.05004313526789741
+  Outputs:
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=controller+=
+  VSI time: 30020100 ns
+  Inputs:
+	lateral_error = 0.10375688931776494
+	heading_error = -0.05530366463377496
+  Outputs:
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=controller+=
+  VSI time: 40020100 ns
+  Inputs:
+	lateral_error = 0.12067937288870442
+	heading_error = -0.05873627927887464
+  Outputs:
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=controller+=
+  VSI time: 50020100 ns
+  Inputs:
+	lateral_error = 0.09060564928759393
+	heading_error = -0.06125470263176053
+  Outputs:
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=controller+=
+  VSI time: 60020100 ns
+  Inputs:
+	lateral_error = 0.10041355028976377
+	heading_error = -0.0640571444271367
+  Outputs:
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=controller+=
+  VSI time: 70020100 ns
+  Inputs:
+	lateral_error = 0.08886904083217625
+	heading_error = -0.05849011267825575
+  Outputs:
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=controller+=
+  VSI time: 80020100 ns
+  Inputs:
+	lateral_error = 0.10347729222064059
+	heading_error = -0.060243361208568505
+  Outputs:
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=controller+=
+  VSI time: 90020100 ns
+  Inputs:
+	lateral_error = 0.10927497218864196
+	heading_error = -0.05297703733910786
+  Outputs:
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=controller+=
+  VSI time: 100020100 ns
+  Inputs:
+	lateral_error = 0.10409779051096571
+	heading_error = -0.055462322025128234
+  Outputs:
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=controller+=
+  VSI time: 110020100 ns
+  Inputs:
+	lateral_error = 0.09312925855811428
+	heading_error = -0.05173421964612719
+  Outputs:
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=controller+=
+  VSI time: 120020100 ns
+  Inputs:
+	lateral_error = 0.0912264615787389
+	heading_error = -0.060046342021030485
+  Outputs:
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=controller+=
+  VSI time: 130020100 ns
+  Inputs:
+	lateral_error = 0.11786967230766095
+	heading_error = -0.06177908804850032
+  Outputs:
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=controller+=
+  VSI time: 140020100 ns
+  Inputs:
+	lateral_error = 0.11206493216350907
+	heading_error = -0.056821012328285014
+  Outputs:
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=controller+=
+  VSI time: 150020100 ns
+  Inputs:
+	lateral_error = 0.11461087790316006
+	heading_error = -0.06979923515283105
+  Outputs:
+	vel_cmd = 0.016982016401845913
+
+
+
+Killed
+make[1]: *** [Makefile.client1:31: sim] Error 137
+make[1]: Leaving directory '/data/tools/pave/innexis_home/vsi_2025.2/examples/vsiTutorials/lineFollowingRobot/lineFollowingRobot'

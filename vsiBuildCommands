@@ -1,0 +1,39 @@
+add component -type Python -name simulator
+add port -componentName simulator -name simulator -gateway python2DtCan
+
+add component -type Python -name controller
+add port -componentName controller -name controller -gateway python2DtCan
+
+add component -type Python -name visualizer
+add port -componentName visualizer -name visualizer -gateway python2DtCan
+
+define componentSignals -componentName simulator -signals "[lateral_error:double:output,heading_error:double:output,x_pos:double:output,y_pos:double:output,vel_cmd:double:input]"
+
+define componentSignals -componentName controller -signals "[lateral_error:double:input,heading_error:double:input,vel_cmd:double:output]"
+
+define componentSignals -componentName visualizer -signals "[lateral_error:double:input,heading_error:double:input,x_pos:double:input,y_pos:double:input,vel_cmd:double:input]"
+
+define frame -componentName simulator  -portName simulator  -id 10 -signals [lateral_error:0:64]
+define frame -componentName controller -portName controller -id 10 -signals [lateral_error:0:64]
+define frame -componentName visualizer -portName visualizer -id 10 -signals [lateral_error:0:64]
+
+define frame -componentName simulator  -portName simulator  -id 11 -signals [heading_error:0:64]
+define frame -componentName controller -portName controller -id 11 -signals [heading_error:0:64]
+define frame -componentName visualizer -portName visualizer -id 11 -signals [heading_error:0:64]
+
+define frame -componentName simulator  -portName simulator  -id 12 -signals [x_pos:0:64]
+define frame -componentName visualizer -portName visualizer -id 12 -signals [x_pos:0:64]
+
+define frame -componentName simulator  -portName simulator  -id 13 -signals [y_pos:0:64]
+define frame -componentName visualizer -portName visualizer -id 13 -signals [y_pos:0:64]
+
+define frame -componentName controller -portName controller -id 14 -signals [vel_cmd:0:64]
+define frame -componentName simulator  -portName simulator  -id 14 -signals [vel_cmd:0:64]
+define frame -componentName visualizer -portName visualizer -id 14 -signals [vel_cmd:0:64]
+
+set totalSimTime 70 s
+set simulationStep 0.001 s
+set workspaceDir .
+set digitalTwinName lineFollowingRobot
+
+generate

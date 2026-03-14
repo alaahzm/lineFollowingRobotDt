@@ -1,0 +1,1923 @@
+Script started on 2026-03-14 03:22:28+00:00 [TERM="xterm" TTY="/dev/pts/32" COLUMNS="80" LINES="24"]
+make[1]: Entering directory '/data/tools/pave/innexis_home/vsi_2025.2/examples/vsiTutorials/lineFollowingRobot/lineFollowingRobot'
+python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localhost"
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession2' to 'server@localhost' ...
++=+    Successfully connected 'client :remoteSession2' to 'server@localhost'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:timeServerConduit2
+           localClientConduitHandle=0x5e8bf40b9568
+           remoteServerProxyConduitHandle=0x113bcbc0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:resetServerConduit2
+           localClientConduitHandle=0x5e8bf41ed0f8
+           remoteServerProxyConduitHandle=0x113b91f0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:txConfigPort2
+           localClientConduitHandle=0x5e8bf41df390
+           remoteServerProxyConduitHandle=0x113cb910
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:rxConfigPort2
+           localClientConduitHandle=0x5e8bf3e17f20
+           remoteServerProxyConduitHandle=0x113c7d10
++=+ INFO: ... successfully connected to TLM FabricServer !
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:txCanFrameConduit2
+           localClientConduitHandle=0x5e8bf41ed400
+           remoteServerProxyConduitHandle=0x113c1c00
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:rxCanFrameConduit2
+           localClientConduitHandle=0x5e8bf3ba2f40
+           remoteServerProxyConduitHandle=0x113c0a90
+
++=visualizer+=
+  VSI time: 100 ns
+  Inputs:
+	lateral_error = 0.0
+	heading_error = 0.0
+	x_pos = 0.0
+	y_pos = 0.0
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1000100 ns
+  Inputs:
+	lateral_error = 0.08257311533256223
+	heading_error = -0.0515960829677241
+	x_pos = 0.0004993751301974831
+	y_pos = 0.10002498958463535
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2000100 ns
+  Inputs:
+	lateral_error = 0.09991164173213056
+	heading_error = -0.04857146778493062
+	x_pos = 0.0009987502603949663
+	y_pos = 0.10004997916927069
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3000100 ns
+  Inputs:
+	lateral_error = 0.10347864774535173
+	heading_error = -0.044180361919024094
+	x_pos = 0.0014981253905924493
+	y_pos = 0.10007496875390604
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4000100 ns
+  Inputs:
+	lateral_error = 0.09111510503484291
+	heading_error = -0.044450157488372576
+	x_pos = 0.0019975005207899326
+	y_pos = 0.10009995833854138
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5000100 ns
+  Inputs:
+	lateral_error = 0.12063300408764036
+	heading_error = -0.040899203403052344
+	x_pos = 0.002496875650987416
+	y_pos = 0.10012494792317672
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6000100 ns
+  Inputs:
+	lateral_error = 0.11576927820590155
+	heading_error = -0.04459191886815316
+	x_pos = 0.002996250781184899
+	y_pos = 0.10014993750781206
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7000100 ns
+  Inputs:
+	lateral_error = 0.099671027003203
+	heading_error = -0.04885494476342488
+	x_pos = 0.0034956259113823824
+	y_pos = 0.10017492709244741
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8000100 ns
+  Inputs:
+	lateral_error = 0.08506814306911767
+	heading_error = -0.042243252903576084
+	x_pos = 0.003995001041579865
+	y_pos = 0.10019991667708275
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9000100 ns
+  Inputs:
+	lateral_error = 0.09930167724963668
+	heading_error = -0.050508687244496
+	x_pos = 0.004494376171777348
+	y_pos = 0.1002249062617181
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10000100 ns
+  Inputs:
+	lateral_error = 0.09884272519826501
+	heading_error = -0.044696893469348756
+	x_pos = 0.004993751301974831
+	y_pos = 0.10024989584635344
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11000100 ns
+  Inputs:
+	lateral_error = 0.09910643485735064
+	heading_error = -0.051853012307616325
+	x_pos = 0.005493126432172314
+	y_pos = 0.10027488543098878
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12000100 ns
+  Inputs:
+	lateral_error = 0.10357000802954057
+	heading_error = -0.059306490757779294
+	x_pos = 0.0059925015623697965
+	y_pos = 0.10029987501562412
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13000100 ns
+  Inputs:
+	lateral_error = 0.11387353376309119
+	heading_error = -0.057287975361125426
+	x_pos = 0.006491876692567279
+	y_pos = 0.10032486460025947
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14000100 ns
+  Inputs:
+	lateral_error = 0.08072308478342355
+	heading_error = -0.04904437791704407
+	x_pos = 0.006991251822764762
+	y_pos = 0.10034985418489481
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15000100 ns
+  Inputs:
+	lateral_error = 0.10158331206028523
+	heading_error = -0.05703097472775592
+	x_pos = 0.007490626952962245
+	y_pos = 0.10037484376953015
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16000100 ns
+  Inputs:
+	lateral_error = 0.10917802598571769
+	heading_error = -0.04461763277095533
+	x_pos = 0.007990002083159729
+	y_pos = 0.1003998333541655
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17000100 ns
+  Inputs:
+	lateral_error = 0.09357762906667771
+	heading_error = -0.04735248622736283
+	x_pos = 0.008489377213357211
+	y_pos = 0.10042482293880084
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18000100 ns
+  Inputs:
+	lateral_error = 0.11003866891069407
+	heading_error = -0.047792459073190664
+	x_pos = 0.008988752343554694
+	y_pos = 0.10044981252343618
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19000100 ns
+  Inputs:
+	lateral_error = 0.08082567511688905
+	heading_error = -0.05400472274164938
+	x_pos = 0.009488127473752177
+	y_pos = 0.10047480210807153
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20000100 ns
+  Inputs:
+	lateral_error = 0.09588583020243333
+	heading_error = -0.05004313526789741
+	x_pos = 0.00998750260394966
+	y_pos = 0.10049979169270687
+	vel_cmd = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21000100 ns
+  Inputs:
+	lateral_error = 0.08700166029610679
+	heading_error = -0.04277128673082643
+	x_pos = 0.010486877734147143
+	y_pos = 0.10052478127734221
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 22000100 ns
+  Inputs:
+	lateral_error = 0.09549380260855295
+	heading_error = -0.05441792218490813
+	x_pos = 0.010986252864344626
+	y_pos = 0.10054977086197756
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 23000100 ns
+  Inputs:
+	lateral_error = 0.0964683364285419
+	heading_error = -0.048370529505139245
+	x_pos = 0.011485627994542108
+	y_pos = 0.1005747604466129
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 24000100 ns
+  Inputs:
+	lateral_error = 0.10177470732695586
+	heading_error = -0.051822550884198994
+	x_pos = 0.011984982704153347
+	y_pos = 0.10060015481585247
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 25000100 ns
+  Inputs:
+	lateral_error = 0.10994113190407612
+	heading_error = -0.05087915335810395
+	x_pos = 0.01248431666506719
+	y_pos = 0.10062595395301038
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 26000100 ns
+  Inputs:
+	lateral_error = 0.10723415361023937
+	heading_error = -0.05713235515079073
+	x_pos = 0.012983629549186118
+	y_pos = 0.10065215784113479
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 27000100 ns
+  Inputs:
+	lateral_error = 0.10213527547651244
+	heading_error = -0.06180719413365113
+	x_pos = 0.013482921028426464
+	y_pos = 0.10067876646300791
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 28000100 ns
+  Inputs:
+	lateral_error = 0.10240432326083887
+	heading_error = -0.05063043397930848
+	x_pos = 0.013982190774718625
+	y_pos = 0.10070577980114599
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 29000100 ns
+  Inputs:
+	lateral_error = 0.09948272002385575
+	heading_error = -0.04873662556507775
+	x_pos = 0.014481438460007273
+	y_pos = 0.10073319783779938
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 30000100 ns
+  Inputs:
+	lateral_error = 0.10375688931776494
+	heading_error = -0.05530366463377496
+	x_pos = 0.014980663756251582
+	y_pos = 0.1007610205549525
+	vel_cmd = 0.8105987544034748
+
+
+
+
++=visualizer+=
+  VSI time: 31000100 ns
+  Inputs:
+	lateral_error = 0.08740765036975816
+	heading_error = -0.053910671424659155
+	x_pos = 0.015479866335425434
+	y_pos = 0.10078924793432385
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 32000100 ns
+  Inputs:
+	lateral_error = 0.10384497251390133
+	heading_error = -0.05369662719394521
+	x_pos = 0.015979045869517636
+	y_pos = 0.10081787995736609
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 33000100 ns
+  Inputs:
+	lateral_error = 0.09287915721161663
+	heading_error = -0.06087611522902595
+	x_pos = 0.016478202030532144
+	y_pos = 0.10084691660526594
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 34000100 ns
+  Inputs:
+	lateral_error = 0.11037723426878847
+	heading_error = -0.05586601372254446
+	x_pos = 0.016977358760197188
+	y_pos = 0.10087594347609449
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 35000100 ns
+  Inputs:
+	lateral_error = 0.09724522917641355
+	heading_error = -0.06050005697585833
+	x_pos = 0.017476516058321265
+	y_pos = 0.10090496056984062
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 36000100 ns
+  Inputs:
+	lateral_error = 0.11219553581244185
+	heading_error = -0.05875431568529996
+	x_pos = 0.01797567392471287
+	y_pos = 0.10093396788649318
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 37000100 ns
+  Inputs:
+	lateral_error = 0.10721340036058194
+	heading_error = -0.04841756778518926
+	x_pos = 0.018474832359180494
+	y_pos = 0.10096296542604105
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 38000100 ns
+  Inputs:
+	lateral_error = 0.11177965802371909
+	heading_error = -0.05939461554066454
+	x_pos = 0.018973991361532633
+	y_pos = 0.1009919531884731
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 39000100 ns
+  Inputs:
+	lateral_error = 0.11458596627702204
+	heading_error = -0.059820897345729186
+	x_pos = 0.019473150931577782
+	y_pos = 0.1010209311737782
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 40000100 ns
+  Inputs:
+	lateral_error = 0.12067937288870442
+	heading_error = -0.05873627927887464
+	x_pos = 0.01997231106912443
+	y_pos = 0.10104989938194524
+	vel_cmd = -0.01958718832183741
+
+
+
+
++=visualizer+=
+  VSI time: 41000100 ns
+  Inputs:
+	lateral_error = 0.11234655465730224
+	heading_error = -0.06768387218990059
+	x_pos = 0.02047147177398108
+	y_pos = 0.10107885781296311
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 42000100 ns
+  Inputs:
+	lateral_error = 0.11266309599855509
+	heading_error = -0.058143863775117745
+	x_pos = 0.020970633045956213
+	y_pos = 0.10110780646682069
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 43000100 ns
+  Inputs:
+	lateral_error = 0.07901315878938155
+	heading_error = -0.05197943263835794
+	x_pos = 0.02146979488485833
+	y_pos = 0.10113674534350688
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 44000100 ns
+  Inputs:
+	lateral_error = 0.10165146479032748
+	heading_error = -0.048171851853810684
+	x_pos = 0.02196895408411636
+	y_pos = 0.10116572971509025
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 45000100 ns
+  Inputs:
+	lateral_error = 0.09209249915977455
+	heading_error = -0.05951354514274701
+	x_pos = 0.02246811063958378
+	y_pos = 0.10119475958133002
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 46000100 ns
+  Inputs:
+	lateral_error = 0.09972351420565409
+	heading_error = -0.05917677857944035
+	x_pos = 0.022967264547114095
+	y_pos = 0.10122383494198506
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 47000100 ns
+  Inputs:
+	lateral_error = 0.09729206925473238
+	heading_error = -0.06661278193495698
+	x_pos = 0.02346641580256082
+	y_pos = 0.10125295579681381
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 48000100 ns
+  Inputs:
+	lateral_error = 0.10953562878651989
+	heading_error = -0.05642247829555725
+	x_pos = 0.023965564401777502
+	y_pos = 0.10128212214557439
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 49000100 ns
+  Inputs:
+	lateral_error = 0.10808339468818909
+	heading_error = -0.06368426587779226
+	x_pos = 0.02446471034061771
+	y_pos = 0.1013113339880245
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 50000100 ns
+  Inputs:
+	lateral_error = 0.09060564928759393
+	heading_error = -0.06125470263176053
+	x_pos = 0.024963853614935024
+	y_pos = 0.10134059132392148
+	vel_cmd = 0.09114281961138475
+
+
+
+
++=visualizer+=
+  VSI time: 51000100 ns
+  Inputs:
+	lateral_error = 0.11053885799507178
+	heading_error = -0.06163297006312876
+	x_pos = 0.02546299422058306
+	y_pos = 0.10136989415302228
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 52000100 ns
+  Inputs:
+	lateral_error = 0.10497256655192207
+	heading_error = -0.058050385804037964
+	x_pos = 0.025962132153415453
+	y_pos = 0.10139924247508349
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 53000100 ns
+  Inputs:
+	lateral_error = 0.08859766564302662
+	heading_error = -0.05926924329309489
+	x_pos = 0.026461267409285852
+	y_pos = 0.10142863628986132
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 54000100 ns
+  Inputs:
+	lateral_error = 0.09197613684566466
+	heading_error = -0.058055894628113225
+	x_pos = 0.026960396654165688
+	y_pos = 0.10145813199981524
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 55000100 ns
+  Inputs:
+	lateral_error = 0.08177987873447894
+	heading_error = -0.059279180928372956
+	x_pos = 0.027459519867253732
+	y_pos = 0.101487729603716
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 56000100 ns
+  Inputs:
+	lateral_error = 0.10804334073337175
+	heading_error = -0.05401773621029057
+	x_pos = 0.027958637027749006
+	y_pos = 0.10151742910033015
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 57000100 ns
+  Inputs:
+	lateral_error = 0.10949885246463054
+	heading_error = -0.07314664803410127
+	x_pos = 0.028457748114850787
+	y_pos = 0.10154723048841995
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 58000100 ns
+  Inputs:
+	lateral_error = 0.10460853663030162
+	heading_error = -0.05939627018021081
+	x_pos = 0.028956853107758602
+	y_pos = 0.10157713376674342
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 59000100 ns
+  Inputs:
+	lateral_error = 0.10469892664013196
+	heading_error = -0.0624069106745743
+	x_pos = 0.02945595198567223
+	y_pos = 0.10160713893405435
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 60000100 ns
+  Inputs:
+	lateral_error = 0.10041355028976377
+	heading_error = -0.0640571444271367
+	x_pos = 0.02995504472779171
+	y_pos = 0.10163724598910226
+	vel_cmd = 0.20414464435333718
+
+
+
+
++=visualizer+=
+  VSI time: 61000100 ns
+  Inputs:
+	lateral_error = 0.09373886475148194
+	heading_error = -0.059729092113987796
+	x_pos = 0.030454131313317333
+	y_pos = 0.10166745493063245
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 62000100 ns
+  Inputs:
+	lateral_error = 0.08849028550932603
+	heading_error = -0.055971367016762426
+	x_pos = 0.030953211721449648
+	y_pos = 0.10169776575738596
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 63000100 ns
+  Inputs:
+	lateral_error = 0.10568656831959299
+	heading_error = -0.0661013176151196
+	x_pos = 0.03145228593138946
+	y_pos = 0.10172817846809958
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 64000100 ns
+  Inputs:
+	lateral_error = 0.09110197429233297
+	heading_error = -0.05521641817545228
+	x_pos = 0.03195136905959982
+	y_pos = 0.10175844447437336
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 65000100 ns
+  Inputs:
+	lateral_error = 0.09484809135673819
+	heading_error = -0.05658614676780432
+	x_pos = 0.03245046106295649
+	y_pos = 0.10178856377359212
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 66000100 ns
+  Inputs:
+	lateral_error = 0.09969080932465749
+	heading_error = -0.06767307321319187
+	x_pos = 0.032949561898334465
+	y_pos = 0.10181853636315333
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 67000100 ns
+  Inputs:
+	lateral_error = 0.09923073430938817
+	heading_error = -0.06574691915153769
+	x_pos = 0.03344867152260799
+	y_pos = 0.10184836224046716
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 68000100 ns
+  Inputs:
+	lateral_error = 0.08672262187816687
+	heading_error = -0.05997079204118631
+	x_pos = 0.03394778989265054
+	y_pos = 0.10187804140295643
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 69000100 ns
+  Inputs:
+	lateral_error = 0.10943409916785977
+	heading_error = -0.06224507970222257
+	x_pos = 0.03444691696533485
+	y_pos = 0.10190757384805668
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 70000100 ns
+  Inputs:
+	lateral_error = 0.08886904083217625
+	heading_error = -0.05849011267825575
+	x_pos = 0.03494605269753287
+	y_pos = 0.1019369595732161
+	vel_cmd = -0.2939505289868609
+
+
+
+
++=visualizer+=
+  VSI time: 71000100 ns
+  Inputs:
+	lateral_error = 0.10437787211584398
+	heading_error = -0.05734301754147158
+	x_pos = 0.03544519704611583
+	y_pos = 0.10196619857589553
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 72000100 ns
+  Inputs:
+	lateral_error = 0.10397746110276206
+	heading_error = -0.05982869168562499
+	x_pos = 0.03594434996795422
+	y_pos = 0.10199529085356855
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 73000100 ns
+  Inputs:
+	lateral_error = 0.09534603228091422
+	heading_error = -0.0675497745708488
+	x_pos = 0.03644351141991776
+	y_pos = 0.10202423640372138
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 74000100 ns
+  Inputs:
+	lateral_error = 0.11220436317488484
+	heading_error = -0.06381598901785684
+	x_pos = 0.0369426696753211
+	y_pos = 0.10205323702548523
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 75000100 ns
+  Inputs:
+	lateral_error = 0.09714692209599225
+	heading_error = -0.05713107857676885
+	x_pos = 0.0374418247280883
+	y_pos = 0.1020822927185071
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 76000100 ns
+  Inputs:
+	lateral_error = 0.11094997647214767
+	heading_error = -0.057992208907462706
+	x_pos = 0.037940976572143424
+	y_pos = 0.10211140348243332
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 77000100 ns
+  Inputs:
+	lateral_error = 0.10551893800249491
+	heading_error = -0.06496246586382233
+	x_pos = 0.0384401252014106
+	y_pos = 0.10214056931690953
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 78000100 ns
+  Inputs:
+	lateral_error = 0.10814242051395037
+	heading_error = -0.06450456405892133
+	x_pos = 0.038939270609814
+	y_pos = 0.10216979022158072
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 79000100 ns
+  Inputs:
+	lateral_error = 0.10718326610347069
+	heading_error = -0.05297205665006603
+	x_pos = 0.03943841279127783
+	y_pos = 0.1021990661960912
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 80000100 ns
+  Inputs:
+	lateral_error = 0.10347729222064059
+	heading_error = -0.060243361208568505
+	x_pos = 0.03993755173972631
+	y_pos = 0.10222839724008462
+	vel_cmd = 0.11032860628823113
+
+
+
+
++=visualizer+=
+  VSI time: 81000100 ns
+  Inputs:
+	lateral_error = 0.10741377358131443
+	heading_error = -0.056451091337596515
+	x_pos = 0.040436687449083734
+	y_pos = 0.10225778335320393
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 82000100 ns
+  Inputs:
+	lateral_error = 0.09670248176799581
+	heading_error = -0.0626220019416476
+	x_pos = 0.04093581991327442
+	y_pos = 0.10228722453509144
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 83000100 ns
+  Inputs:
+	lateral_error = 0.10956359706405014
+	heading_error = -0.06482697312412666
+	x_pos = 0.041434949126222725
+	y_pos = 0.10231672078538878
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 84000100 ns
+  Inputs:
+	lateral_error = 0.08095861583905885
+	heading_error = -0.06112256339310821
+	x_pos = 0.041934080279720044
+	y_pos = 0.10234618417976954
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 85000100 ns
+  Inputs:
+	lateral_error = 0.09333494771452466
+	heading_error = -0.055640811354861014
+	x_pos = 0.042433213371603586
+	y_pos = 0.10237561471810605
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 86000100 ns
+  Inputs:
+	lateral_error = 0.12680813189376433
+	heading_error = -0.06711530228376988
+	x_pos = 0.04293234839971055
+	y_pos = 0.10240501240027079
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 87000100 ns
+  Inputs:
+	lateral_error = 0.10582537183974054
+	heading_error = -0.053145523370577534
+	x_pos = 0.04343148536187814
+	y_pos = 0.10243437722613638
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 88000100 ns
+  Inputs:
+	lateral_error = 0.10069937587034128
+	heading_error = -0.06153353542570896
+	x_pos = 0.043930624255943525
+	y_pos = 0.10246370919557557
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 89000100 ns
+  Inputs:
+	lateral_error = 0.09296492144965447
+	heading_error = -0.06069622968787247
+	x_pos = 0.044429765079743895
+	y_pos = 0.10249300830846127
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 90000100 ns
+  Inputs:
+	lateral_error = 0.10927497218864196
+	heading_error = -0.05297703733910786
+	x_pos = 0.044928907831116416
+	y_pos = 0.1025222745646665
+	vel_cmd = -0.06582634685550459
+
+
+
+
++=visualizer+=
+  VSI time: 91000100 ns
+  Inputs:
+	lateral_error = 0.10008155010896194
+	heading_error = -0.06497001010961878
+	x_pos = 0.04542805250789825
+	y_pos = 0.10255150796406448
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 92000100 ns
+  Inputs:
+	lateral_error = 0.10598524057627066
+	heading_error = -0.05545338508626572
+	x_pos = 0.045927199107926545
+	y_pos = 0.10258070850652852
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 93000100 ns
+  Inputs:
+	lateral_error = 0.10665900511221567
+	heading_error = -0.05069604989973651
+	x_pos = 0.046426347629038446
+	y_pos = 0.1026098761919321
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 94000100 ns
+  Inputs:
+	lateral_error = 0.10709300549551119
+	heading_error = -0.058283627665917166
+	x_pos = 0.046925491124130185
+	y_pos = 0.10263912976107512
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 95000100 ns
+  Inputs:
+	lateral_error = 0.10215374306415517
+	heading_error = -0.05834226223732947
+	x_pos = 0.04742462957842456
+	y_pos = 0.10266846921309151
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 96000100 ns
+  Inputs:
+	lateral_error = 0.11787809768700647
+	heading_error = -0.060268849688988234
+	x_pos = 0.04792376297714453
+	y_pos = 0.1026978945471127
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 97000100 ns
+  Inputs:
+	lateral_error = 0.09590232992340654
+	heading_error = -0.06291351440886699
+	x_pos = 0.04842289130551318
+	y_pos = 0.10272740576226752
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 98000100 ns
+  Inputs:
+	lateral_error = 0.10110638227088119
+	heading_error = -0.056131290907509505
+	x_pos = 0.04892201454875377
+	y_pos = 0.10275700285768231
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 99000100 ns
+  Inputs:
+	lateral_error = 0.09340718526396209
+	heading_error = -0.06364924008524765
+	x_pos = 0.049421132692089705
+	y_pos = 0.10278668583248084
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 100000100 ns
+  Inputs:
+	lateral_error = 0.10409779051096571
+	heading_error = -0.055462322025128234
+	x_pos = 0.049920245720744535
+	y_pos = 0.10281645468578433
+	vel_cmd = 0.17206135646102902
+
+
+
+
++=visualizer+=
+  VSI time: 101000100 ns
+  Inputs:
+	lateral_error = 0.09702415161093006
+	heading_error = -0.05887258911035535
+	x_pos = 0.05041935361994196
+	y_pos = 0.10284630941671148
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 102000100 ns
+  Inputs:
+	lateral_error = 0.0973854909084274
+	heading_error = -0.05469598214598965
+	x_pos = 0.050918456374905836
+	y_pos = 0.10287625002437845
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 103000100 ns
+  Inputs:
+	lateral_error = 0.10806420613502093
+	heading_error = -0.05705381507020487
+	x_pos = 0.051417553970860175
+	y_pos = 0.10290627650789881
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 104000100 ns
+  Inputs:
+	lateral_error = 0.10098530012933689
+	heading_error = -0.0645693247494425
+	x_pos = 0.05191664723589483
+	y_pos = 0.10293637489318859
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 105000100 ns
+  Inputs:
+	lateral_error = 0.09890510373308155
+	heading_error = -0.05906539696456597
+	x_pos = 0.052415736159651366
+	y_pos = 0.10296654517962311
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 106000100 ns
+  Inputs:
+	lateral_error = 0.09420518517902943
+	heading_error = -0.05741615155579636
+	x_pos = 0.05291482073177146
+	y_pos = 0.1029967873665762
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 107000100 ns
+  Inputs:
+	lateral_error = 0.09247972559673273
+	heading_error = -0.069132598548213
+	x_pos = 0.05341390094189686
+	y_pos = 0.1030271014534202
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 108000100 ns
+  Inputs:
+	lateral_error = 0.08759535667121006
+	heading_error = -0.06395143224320993
+	x_pos = 0.05391297677966942
+	y_pos = 0.10305748743952595
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 109000100 ns
+  Inputs:
+	lateral_error = 0.11792416006778214
+	heading_error = -0.06402643329862198
+	x_pos = 0.05441204823473107
+	y_pos = 0.10308794532426281
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 110000100 ns
+  Inputs:
+	lateral_error = 0.09312925855811428
+	heading_error = -0.05173421964612719
+	x_pos = 0.05491111529672385
+	y_pos = 0.10311847510699865
+	vel_cmd = 0.1440641706902247
+
+
+
+
++=visualizer+=
+  VSI time: 111000100 ns
+  Inputs:
+	lateral_error = 0.09843648667168604
+	heading_error = -0.05372195335901589
+	x_pos = 0.05541017795528987
+	y_pos = 0.10314907678709982
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 112000100 ns
+  Inputs:
+	lateral_error = 0.08816468998768087
+	heading_error = -0.05858117056685875
+	x_pos = 0.05590923620007135
+	y_pos = 0.10317975036393122
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 113000100 ns
+  Inputs:
+	lateral_error = 0.09620235385466078
+	heading_error = -0.0692543856416376
+	x_pos = 0.056408290020710586
+	y_pos = 0.10321049583685621
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 114000100 ns
+  Inputs:
+	lateral_error = 0.09744462894188448
+	heading_error = -0.06124854730392605
+	x_pos = 0.05690734452183962
+	y_pos = 0.10324123026222662
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 115000100 ns
+  Inputs:
+	lateral_error = 0.10262430310837262
+	heading_error = -0.059305553334530296
+	x_pos = 0.057406399703213894
+	y_pos = 0.10327195364002739
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 116000100 ns
+  Inputs:
+	lateral_error = 0.08708597623263008
+	heading_error = -0.04984204124382073
+	x_pos = 0.05790545556458885
+	y_pos = 0.10330266597024347
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 117000100 ns
+  Inputs:
+	lateral_error = 0.11419127069485918
+	heading_error = -0.06671054165887472
+	x_pos = 0.058404512105719925
+	y_pos = 0.1033333672528598
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 118000100 ns
+  Inputs:
+	lateral_error = 0.10914818945166943
+	heading_error = -0.06252229992460166
+	x_pos = 0.05890356932636256
+	y_pos = 0.10336405748786133
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 119000100 ns
+  Inputs:
+	lateral_error = 0.09550375065697521
+	heading_error = -0.051293022966853244
+	x_pos = 0.05940262722627219
+	y_pos = 0.10339473667523302
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 120000100 ns
+  Inputs:
+	lateral_error = 0.0912264615787389
+	heading_error = -0.060046342021030485
+	x_pos = 0.059901685805204254
+	y_pos = 0.10342540481495985
+	vel_cmd = -0.022136985214327665
+
+
+
+
++=visualizer+=
+  VSI time: 121000100 ns
+  Inputs:
+	lateral_error = 0.12209573223918792
+	heading_error = -0.05090224731066316
+	x_pos = 0.06040074506291419
+	y_pos = 0.10345606190702679
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 122000100 ns
+  Inputs:
+	lateral_error = 0.10046495406235621
+	heading_error = -0.06096088551109995
+	x_pos = 0.060899804999157446
+	y_pos = 0.1034867079514188
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 123000100 ns
+  Inputs:
+	lateral_error = 0.09854806186412823
+	heading_error = -0.054604527200738835
+	x_pos = 0.06139886561368945
+	y_pos = 0.10351734294812089
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 124000100 ns
+  Inputs:
+	lateral_error = 0.09904564619245483
+	heading_error = -0.06327478494399913
+	x_pos = 0.06189792791436409
+	y_pos = 0.10354795046427845
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 125000100 ns
+  Inputs:
+	lateral_error = 0.09746815988382192
+	heading_error = -0.06468888565571598
+	x_pos = 0.06239699189966816
+	y_pos = 0.10357853049979868
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 126000100 ns
+  Inputs:
+	lateral_error = 0.13117684176095573
+	heading_error = -0.05614995896874514
+	x_pos = 0.06289605756808846
+	y_pos = 0.10360908305458887
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 127000100 ns
+  Inputs:
+	lateral_error = 0.10363742438378043
+	heading_error = -0.053406456694859314
+	x_pos = 0.06339512491811175
+	y_pos = 0.10363960812855637
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 128000100 ns
+  Inputs:
+	lateral_error = 0.11415685832810775
+	heading_error = -0.06256050911966676
+	x_pos = 0.06389419394822483
+	y_pos = 0.10367010572160863
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 129000100 ns
+  Inputs:
+	lateral_error = 0.11909592028371854
+	heading_error = -0.05423803775273527
+	x_pos = 0.06439326465691449
+	y_pos = 0.10370057583365319
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 130000100 ns
+  Inputs:
+	lateral_error = 0.11786967230766095
+	heading_error = -0.06177908804850032
+	x_pos = 0.06489233704266748
+	y_pos = 0.10373101846459765
+	vel_cmd = -0.055064449665878056
+
+
+
+
++=visualizer+=
+  VSI time: 131000100 ns
+  Inputs:
+	lateral_error = 0.09909099870348857
+	heading_error = -0.061391823070666096
+	x_pos = 0.06539141110397056
+	y_pos = 0.1037614336143497
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 132000100 ns
+  Inputs:
+	lateral_error = 0.10113376569435992
+	heading_error = -0.06142346938652764
+	x_pos = 0.06589048683931052
+	y_pos = 0.10379182128281712
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 133000100 ns
+  Inputs:
+	lateral_error = 0.1098210861435806
+	heading_error = -0.054800062054678335
+	x_pos = 0.06638956424717408
+	y_pos = 0.10382218146990779
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 134000100 ns
+  Inputs:
+	lateral_error = 0.09285568339521239
+	heading_error = -0.0669719542508478
+	x_pos = 0.06688864275039605
+	y_pos = 0.10385252364553378
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 135000100 ns
+  Inputs:
+	lateral_error = 0.0863871462349646
+	heading_error = -0.054013176091722466
+	x_pos = 0.06738772234832639
+	y_pos = 0.10388284780965557
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 136000100 ns
+  Inputs:
+	lateral_error = 0.09927670456398349
+	heading_error = -0.05811954037171312
+	x_pos = 0.06788680304031508
+	y_pos = 0.10391315396223366
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 137000100 ns
+  Inputs:
+	lateral_error = 0.10392010688424061
+	heading_error = -0.062392843509363104
+	x_pos = 0.06838588482571209
+	y_pos = 0.10394344210322859
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 138000100 ns
+  Inputs:
+	lateral_error = 0.10221224497165013
+	heading_error = -0.057043640031519856
+	x_pos = 0.0688849677038674
+	y_pos = 0.1039737122326009
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 139000100 ns
+  Inputs:
+	lateral_error = 0.08456270731526457
+	heading_error = -0.058801803590515865
+	x_pos = 0.06938405167413096
+	y_pos = 0.10400396435031119
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 140000100 ns
+  Inputs:
+	lateral_error = 0.11206493216350907
+	heading_error = -0.056821012328285014
+	x_pos = 0.06988313673585275
+	y_pos = 0.10403419845632003
+	vel_cmd = -0.036089481564025985
+
+
+
+
++=visualizer+=
+  VSI time: 141000100 ns
+  Inputs:
+	lateral_error = 0.11087857519738437
+	heading_error = -0.05922718153515377
+	x_pos = 0.07038222288838274
+	y_pos = 0.10406441455058806
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 142000100 ns
+  Inputs:
+	lateral_error = 0.12443241409117428
+	heading_error = -0.05841097337590251
+	x_pos = 0.07088131013107088
+	y_pos = 0.1040946126330759
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 143000100 ns
+  Inputs:
+	lateral_error = 0.09175701872203094
+	heading_error = -0.057165556020471846
+	x_pos = 0.07138039846326714
+	y_pos = 0.10412479270374424
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 144000100 ns
+  Inputs:
+	lateral_error = 0.09941265805187362
+	heading_error = -0.06469037256263603
+	x_pos = 0.07187947749577404
+	y_pos = 0.10415512617225636
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 145000100 ns
+  Inputs:
+	lateral_error = 0.1017965118033343
+	heading_error = -0.05892033654385717
+	x_pos = 0.07237854718144382
+	y_pos = 0.10418561303574667
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 146000100 ns
+  Inputs:
+	lateral_error = 0.09223295217037648
+	heading_error = -0.06273802849053613
+	x_pos = 0.07287760747312957
+	y_pos = 0.10421625329133509
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 147000100 ns
+  Inputs:
+	lateral_error = 0.10869897069832428
+	heading_error = -0.06872078583431257
+	x_pos = 0.07337665832368534
+	y_pos = 0.10424704693612705
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 148000100 ns
+  Inputs:
+	lateral_error = 0.09152976635107155
+	heading_error = -0.06184459348899334
+	x_pos = 0.073875699685966
+	y_pos = 0.10427799396721349
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 149000100 ns
+  Inputs:
+	lateral_error = 0.09811870433079108
+	heading_error = -0.07145250178149719
+	x_pos = 0.07437473151282735
+	y_pos = 0.10430909438167085
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 150000100 ns
+  Inputs:
+	lateral_error = 0.11461087790316006
+	heading_error = -0.06979923515283105
+	x_pos = 0.0748737537571261
+	y_pos = 0.10434034817656111
+	vel_cmd = 0.30735896202556373
+
+
+
+
++=visualizer+=
+  VSI time: 151000100 ns
+  Inputs:
+	lateral_error = 0.09237384108246471
+	heading_error = -0.06206615235215588
+	x_pos = 0.07537276637171984
+	y_pos = 0.10437175534893173
+	vel_cmd = 0.016982016401845913
+
+
+
+
++=visualizer+=
+  VSI time: 152000100 ns
+  Inputs:
+	lateral_error = 0.11127026176931126
+	heading_error = -0.06223641427608282
+	x_pos = 0.0758717693094671
+	y_pos = 0.10440331589581567
+	vel_cmd = 0.016982016401845913
+
+
+
+
++=visualizer+=
+  VSI time: 153000100 ns
+  Inputs:
+	lateral_error = 0.11341525665019267
+	heading_error = -0.06383765446442512
+	x_pos = 0.07637076252322728
+	y_pos = 0.10443502981423143
+	vel_cmd = 0.016982016401845913
+
+
+
+
++=visualizer+=
+  VSI time: 154000100 ns
+  Inputs:
+	lateral_error = 0.09591110592305745
+	heading_error = -0.06754836420319944
+	x_pos = 0.07686975519834922
+	y_pos = 0.10446675220655356
+	vel_cmd = 0.016982016401845913
+
+
+
+
++=visualizer+=
+  VSI time: 155000100 ns
+  Inputs:
+	lateral_error = 0.11737194682090099
+	heading_error = -0.0593292061483253
+	x_pos = 0.07736874733468904
+	y_pos = 0.10449848307277292
+	vel_cmd = 0.016982016401845913
+
+
+
+error(104): DCBlockingRecv(): Error calling recv(): Connection reset by peer
+Killed
+make[1]: *** [Makefile.client2:31: sim] Error 137
+make[1]: Leaving directory '/data/tools/pave/innexis_home/vsi_2025.2/examples/vsiTutorials/lineFollowingRobot/lineFollowingRobot'
